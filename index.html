@@ -17,20 +17,27 @@
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
+            <input type="text" name="name"><br> 
+            E-mail:
             <input type="email" name="email"><br>
 
             <!--add your own inputs below-->
-
-
-
-
-
-
-
-
+            <br>
+            Sex: 
+            <input type="radio" name="sex" value="male"> Male
+            <input type="radio" name="sex" value="female"> Female <br>
+            Favorite Fruit:  <input type="text" name="fruit" placeholder="FRUIT" required><br>
+            
+            Favorite Fruit Categories
+            <select name="Favorite_Fruit_Categories" required>
+                <option name="Pome" select>Pome</option>
+                <option name="Drupe" select>Drupe</option>
+                <option name="Berry" select>Berry</option>
+                <option name="Nuts" select>Nuts</option>
+                <option name="Grains" select>Grains</option>
+            </select>
             <!--add your own inputs above-->
-
+            <br>
             <input class="blue-button" type="submit" value="Submit">
         </form>
     </div>
